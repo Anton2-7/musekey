@@ -189,9 +189,8 @@ top: 90px;
 text-align: center;
 }
 
-  .colorext p , h1{
-	  color:white;
-	  position: relative;
+  .colorext {
+	  
 	  line-height: 2.3;
 	  text-align: left;
 	  font-family: Caveat;
@@ -215,9 +214,7 @@ text-align: center;
 	text-align: left;
 	
 }
-.colorext h1 {
-	font-size: 3rem ;
-}
+
 .main-content h1 {
 
 	color: rgb(0, 0, 0);
@@ -227,3 +224,18 @@ text-align: center;
 iframe {
     margin-left: 0;
 }
+
+.textrc p {
+	font-size: 2rem;
+	font-family:  Caveat;
+	font-weight: 100;
+	text-align: left;
+	margin: 10px;
+	}
+	.textrc h1 {
+		font-family:  Caveat;
+}
+button {
+	margin:10px;
+}		
+
