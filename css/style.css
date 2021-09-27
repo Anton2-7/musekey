@@ -227,3 +227,6 @@ text-align: center;
 	text-align: center;
 	
 }
+iframe {
+    margin-left: 0;
+}
