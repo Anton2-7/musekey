@@ -1,0 +1,229 @@
+body {
+	color:black;
+}
+.element::-webkit-scrollbar {
+	width: 10;
+  }
+  
+  /*Убрать полосу прокрутки для всей страницы*/
+  ::-webkit-scrollbar-button {
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:20px;
+	height:0px
+	}
+	
+	::-webkit-scrollbar-track {
+	background-color:#ecedee
+	}
+	
+	::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 10px;
+	background-color:#f15252;
+	}
+	
+	::-webkit-scrollbar-thumb:hover{
+	background-color:#f31e17;
+	}
+	
+	::-webkit-resizer{
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:20px;
+	height:0px
+	}
+	
+	::-webkit-scrollbar{
+	width: 12px;
+	}
+.head{
+	
+	
+	overflow: hidden;	
+	background-image: linear-gradient(147deg, #d82020 0%, #c59169 74%);
+
+
+	
+}
+
+.navbar-collapse {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.logo {
+	margin: 10px 50px;
+	padding-top: 4px;
+}
+.main-content {
+	height: auto;
+	margin-top: 20px;
+	flex-wrap:wrap ;
+	color:black;
+	
+}
+.navbar {
+	background: #000;
+	
+}
+
+.foot {
+	margin-top:60px;
+}
+
+.button {
+	background-color: #FF4500;
+	border: none;
+	color: white;
+	padding: 10px 14px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 560px;
+	cursor: pointer;
+	}
+
+.card-text + p {
+	font-size: 40px;
+	text-decoration: none;
+	
+}
+
+span {
+	background: rgb(243, 89, 89);
+	font-size:1.2rem;
+}
+.navbar {
+	margin-top: 10px;
+	border-radius: 10px;
+	background-image: linear-gradient(147deg, #d82020 0%, #c59169 74%);
+
+}
+.card {
+	background: #ffffff;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	max-height:600px;
+	overflow: hidden;
+
+  }
+  
+  .card:hover {
+	background-color: #f12c2c;
+	cursor: pointer;
+	
+  }
+
+   
+  .progress-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 4px; // Высота линии, можно менять/подбирать
+    width: 0%;
+    background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+  a{
+	color:black;
+
+}
+а:link{
+	color:orange;
+}
+a:visited {
+   color: rgb(8, 8, 8);
+}
+a:hover{
+	color:rgb(255, 255, 255);
+}
+img.card-img-top {
+	flex-shrink: 0;
+	width: 400px;
+	height: 224px;
+	object-fit: scale-down;
+}
+.card {
+	text-decoration: none;
+}
+.content {
+	float: left;
+	
+}
+.carousel-item a{
+	color: rgb(255, 255, 255) !important;
+	text-decoration: none;
+	font-size:2rem;
+	
+}
+.carousel-caption {
+	color: rgb(255, 255, 255) !important;
+	text-decoration: none;
+	font-size:1.6rem;
+}
+iframe {
+	margin-left: 30px;
+	
+}
+.quote {
+	padding: 10px;
+
+	margin: 20px;
+}
+
+
+.album_image {
+}
+
+
+.block-club {
+top: 90px;
+text-align: center;
+}
+
+  .colorext p , h1{
+	  color:white;
+	  text-indent: 60px;
+	  position: relative;
+	  line-height: 2.3;
+	  font-size: 2rem;
+	  text-align: left;
+	  font-family: Caveat;
+  }
+.textcolor2 p  {
+	color:white;
+	font-size: 70px;
+}
+.carousel-inner {
+	object-fit: cover;
+
+}
+.button {
+	margin-left:150px;
+}
+.colorext {
+	padding: 40px;
+}
+.main-content h1 {
+	font-size: 4rem;
+	color: #000;
+	text-align: center;
+	
+}
+.colorext h1 {
+	font-size: 3rem ;
+}
+.main-content h1 {
+	font-size: 4rem;
+	color: #000;
+	text-align: center;
+	
+}

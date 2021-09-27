@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  color:black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+figure {
+  margin: 0;
+}
+
+
+
+
+.absolute-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: auto;
+  
+ 
+}
+/*Появление страницы*/
+
+.fog {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  overflow-x: none;
+
+  
+  
+}
+.fog__container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+.fog__img {
+  position: absolute;
+  height: 100vh;
+  width: 300vw;
+  text-align: center;
+}
+.fog__img--first {
+  background: url("fog-1.png") repeat-x;
+  background-size: contain;
+  background-position: center;
+  -webkit-animation: marquee 120s linear infinite;
+          animation: marquee 120s linear infinite;
+          
+}
+.fog__img--second {
+  background: url("fog-2.png") repeat-x;
+  background-size: contain;
+  background-position: center;
+  -webkit-animation: marquee 80s linear infinite;
+          animation: marquee 80s linear infinite;
+          
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-200vw, 0, 0);
+            transform: translate3d(-200vw, 0, 0);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-200vw, 0, 0);
+            transform: translate3d(-200vw, 0, 0);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.club-27-text, h1, p, {
+  text-align: left;
+ color:whitesmoke;
+ padding-top: 10px;
+ font-size: 1.4rem;
+ justify-content: center;
+ font-family: 'Caveat', cursive;
+ line-height: 2;
+ text-indent: 60px;
+ float:left ;
+}
+.club-27-text {
+  overflow-y: scroll;
+}
+.body {
+  overflow: hidden;
+}
