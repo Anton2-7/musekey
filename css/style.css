@@ -103,6 +103,7 @@ span {
 .card {
 	background: #ffffff;
 	margin-top: 20px;
+	padding-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-transition: background-color 2s ease-out;
